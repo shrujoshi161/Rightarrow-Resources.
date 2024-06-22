@@ -82,10 +82,10 @@ function sendmail() {
     message: document.getElementById("message").value
   };
 
-  const serviceID = "service_mv7ie9f";
+  const serviceID = "service_suk670of";
   const templateID = "template_lejuzas";
 
-  email.send(serviceID, templateID, params)
+  emailjs.send(service_suk670of,template_lejuzas, params)
 
   
  .then((result) => {

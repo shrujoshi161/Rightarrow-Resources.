@@ -6027,3 +6027,32 @@ background-color: #006818;
         text-align: left; /* Left alignment on tablet */
     }
 }
+.trx_addons_list.icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trx_addons_list.icons li {
+    margin-bottom: 10px;
+}
+
+.trx_addons_list.icons li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px; /* Adjust font size if necessary */
+}
+
+.trx_addons_list.icons li img {
+    width: 24px; /* Ensure all icons have the same size */
+    height: 24px;
+    margin-right: 8px; /* Consistent spacing */
+    vertical-align: middle; /* Align vertically with text */
+}
+
+.trx_addons_list.icons li .twitterx-icon {
+    width: 24px; /* Ensure the TwitterX icon has the same size */
+    height: 24px;
+}

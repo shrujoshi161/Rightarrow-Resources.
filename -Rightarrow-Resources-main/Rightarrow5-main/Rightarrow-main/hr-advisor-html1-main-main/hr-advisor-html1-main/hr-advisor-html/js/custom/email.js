@@ -30,10 +30,10 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
 });*/
 
 
-export function send(serviceID, templateID, params) {
+export function send(service_mv7ie9, template_lejuzas, params) {
   // Your email sending code here
 
-  email.send(serviceID, templateID, params)
+  email.send(service_mv7ie9, template_lejuzas, params)
    .then((result) => {
       document.getElementById("name").value = "";
       document.getElementById("email").value = "";
